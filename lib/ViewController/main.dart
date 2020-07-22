@@ -7,7 +7,6 @@ import 'package:flutter_scaffold/ViewController/categorise.dart';
 import 'package:flutter_scaffold/ViewController/home/home.dart';
 import 'package:flutter_scaffold/ViewController/localizations.dart';
 import 'package:flutter_scaffold/ViewController/product_detail.dart';
-import 'file:///Users/Tariq_/Desktop/dicee-flutter/lib/settings.dart';
 import 'package:flutter_scaffold/ViewController/shop/shop.dart';
 import 'package:flutter_scaffold/ViewController/wishlist.dart';
 import 'package:provider/provider.dart';
@@ -38,7 +37,6 @@ void main() {
         '/categorise': (BuildContext context) => Categorise(),
         '/wishlist': (BuildContext context) => WishList(),
         '/cart': (BuildContext context) => CartList(),
-        '/settings': (BuildContext context) => Settings(),
         '/products': (BuildContext context) => Products()
       },
     ),
